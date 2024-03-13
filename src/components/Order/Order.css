@@ -1,0 +1,37 @@
+.orderForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin-bottom: 2rem;
+}
+.orderPage > h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+.orderForm > input {
+  width: 35vmax;
+  border: none;
+  border-bottom: 1px solid gray;
+  padding: 1.2rem 0rem;
+  outline: none;
+}
+.invalid {
+  border-bottom: 2px solid red !important;
+}
+.invalid::placeholder {
+  color: red;
+}
+.orderpageStyle * {
+  font-size: 1.8rem;
+}
+.orderpageStyle * button {
+  background-color: none;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+button > svg {
+  border: none;
+}

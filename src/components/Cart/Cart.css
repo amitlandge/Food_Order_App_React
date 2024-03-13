@@ -1,0 +1,59 @@
+.cartbox {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 80%;
+  margin: 3% auto;
+
+  gap: 8rem;
+}
+.cart {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+
+  align-items: center;
+  gap: 5rem;
+  line-height: 1;
+  padding-right: 3rem;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 8px rgba(167, 156, 156, 0.5);
+}
+.cart > img {
+  width: 20%;
+  height: 15rem;
+}
+.cartButtons {
+  margin-left: auto;
+}
+.total-amount {
+  padding: 1rem;
+  text-align: center;
+  background-color: #5b8bb5;
+  color: aliceblue;
+}
+.noFood {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+.orderBtn {
+  display: block;
+  margin: 2% auto;
+  padding: 1rem 2rem;
+  background-color: rgb(8, 48, 69);
+  font-size: 2rem;
+  border: none;
+  color: aliceblue;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.removeBtn {
+  border: none;
+  background-color: transparent;
+}
+.deleteBtn {
+  font-size: 2rem;
+}

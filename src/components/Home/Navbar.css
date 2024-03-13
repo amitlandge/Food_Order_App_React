@@ -1,0 +1,122 @@
+.navlinks {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 3.5rem;
+  margin: 0%;
+  background-color: rgb(17, 26, 36, 0.9);
+  padding: 1.5rem 3rem;
+}
+.navItem {
+  text-decoration: none;
+  list-style: none;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+.navItemBtn {
+  background-color: rgb(14, 20, 27);
+  padding: 0.6rem 1.8rem;
+  border-radius: 2rem;
+}
+.navItem > a {
+  text-decoration: none;
+  color: aliceblue;
+  font-weight: 400;
+}
+.navbar {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
+    url("../../img/bg.jpg");
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+  background-position: center;
+  background-size: cover;
+  color: aliceblue;
+  width: 100vw;
+  height: 100vh;
+}
+.nav-sec {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70%;
+}
+.nav-sec > h1 {
+  font-family: "Merienda", cursive;
+  font-size: 8rem;
+  line-height: 0;
+  text-shadow: 0px 6px 8px rgba(140, 135, 135, 0.4);
+}
+.nav-sec > p {
+  width: 50%;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+.lastItem {
+  margin-right: auto;
+}
+@media only screen and (max-width: 500px) {
+  .navlinks,
+  .navlinks-bgchange {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .navItem {
+    margin-right: 0%;
+  }
+  .navbar {
+    height: 120vh;
+  }
+}
+.menu {
+  display: block;
+  margin: 0%;
+
+  color: aliceblue;
+  font-size: 1.6rem;
+  padding: 1.2rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.menu > * {
+  padding: 1rem;
+}
+.menu:focus {
+  /* background-color: rgb(17, 26, 36); */
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.navlinks > menu {
+  background-color: rgba(45, 43, 43, 0.5);
+}
+.navlinks-bgchange {
+  background-color: rgb(17, 26, 36);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 3.5rem;
+  margin: 0%;
+  border: none;
+
+  padding: 1.5rem 3rem;
+}
+
+.menuItem {
+  display: block;
+  padding: 1rem;
+  border: none;
+  cursor: pointer;
+}
+.menuItem::after {
+  cursor: pointer;
+  background-color: aliceblue;
+}

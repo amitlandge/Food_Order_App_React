@@ -1,0 +1,38 @@
+.footer {
+  background-color: rgb(17, 26, 36);
+  color: aliceblue;
+  margin: 0%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  padding: 3rem 2rem;
+  gap: 15rem;
+}
+.left_con > h1 {
+  font-size: 5rem;
+  font-family: "Merienda", cursive;
+  color: green;
+  text-transform: uppercase;
+}
+.left_con {
+  text-align: center;
+}
+.logopng {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.logopng > i {
+  font-size: 2.5rem;
+}
+.paymentlogo {
+  display: flex;
+  gap: 2rem;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+}
+.paymentlogo > i {
+  font-size: 3rem;
+}

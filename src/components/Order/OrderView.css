@@ -1,0 +1,31 @@
+.order-item {
+  width: 30vmax;
+}
+.order-item > img {
+  width: 50%;
+}
+.orderView-container {
+  width: 90%;
+  margin: 3% auto;
+}
+.user-info > p {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  line-height: 0;
+}
+.ship-heading {
+  text-transform: uppercase;
+  color: rgb(17, 26, 36);
+}
+.order-heading {
+  text-transform: uppercase;
+}
+.order-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 3rem;
+}

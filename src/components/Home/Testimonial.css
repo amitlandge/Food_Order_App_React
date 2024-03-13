@@ -1,0 +1,59 @@
+.testi-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  justify-items: center;
+  align-items: stretch;
+  gap: 10rem;
+  margin: 3% 5%;
+}
+@media only screen and (max-width: 700px) {
+  .testi-cards {
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  }
+}
+.testimonial {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),
+    url("../../img/piz.jpg");
+
+  background-position: center;
+  background-size: cover;
+
+  padding: 3rem 2rem;
+  margin: 0%;
+}
+.testi-card {
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  box-shadow: 0px 4px 6px rgba(250, 242, 242, 0.2);
+
+  transition: all 0.5s ease-in-out;
+}
+.testi-card:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.testi-card > img {
+  width: 150px;
+  border-radius: 50%;
+}
+.testi-card > p {
+  font-size: 1.8rem;
+  text-align: center;
+}
+.testi-card > h3 {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: green;
+}
+.testimonial > h1 {
+  font-size: 4.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Merienda", cursive;
+  color: aliceblue;
+  letter-spacing: 1px;
+}
